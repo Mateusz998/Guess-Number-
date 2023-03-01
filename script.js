@@ -11,7 +11,7 @@ function again() {
     getValue.value = '';
   }
   document.getElementById('message').innerHTML = 'Start guessing...';
-  document.body.style.backgroundColor = 'black';
+  document.body.style.backgroundColor = '#222';
   document.getElementById('quote').innerText = '?';
 }
 
