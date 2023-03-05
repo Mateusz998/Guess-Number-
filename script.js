@@ -12,7 +12,7 @@ function again() {
   }
   document.getElementById('message').innerHTML = 'Start guessing...';
   document.body.style.backgroundColor = '#222';
-  document.getElementById('quote').innerText = '?';
+  document.getElementById('secret').innerText = '?';
 }
 
 let highScore = 0;
@@ -31,7 +31,7 @@ function check() {
     document.getElementById('score').innerText = score;
   } else {
     document.getElementById('message').innerHTML = myNumber;
-    document.getElementById('quote').innerHTML = myNumber;
+    document.getElementById('secret').innerHTML = myNumber;
     document.body.style.backgroundColor = 'green';
     checkscore();
   }
